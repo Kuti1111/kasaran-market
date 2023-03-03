@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Ödeme Seçenekleri</title>
+</head>
+<body>
+    <form>
+
+        <div>
+            <label for="ad">Adınız:</label>
+            <input type="text" id="ad" name="ad" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="soyad">Soyadınız:</label>
+            <input type="text" id="soyad" name="soyad" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="mail">Mail adresiniz</label>
+            <input type="mail" id="mail" name="mail" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="telefon">Telefon numaranız:</label>
+            <input type="tel" id="telefon" name="telefon" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="doğum">Doğum tarihi:</label>
+            <input type="date" id="doğum" name="doğum" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="kaçtane">Kaç tane alıcaksınız:</label>
+            <input type="number" id="kaçtane" name="kaçtane" min="1" max="99" value="1" required>
+        </div>
+        
+        <br>
+        
+        <div>
+            <label for="hangikart">Hangi kartı kullanacaksınız:</label>
+            <select id="hangikart" name="hangikart" required>
+            <option>Visa</option>
+            <option>Mastercard</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="kabul">Ödemeyi kabul ediyor musunuz:</label>
+            <input type="checkbox" id="kabul" name="kabul" required>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="reset">
+        </div>
+
+    </form>
+</body>
+</html>
